@@ -1,0 +1,850 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Extron Electronics</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--
+        google fonts:
+        Loading fonts for testing preferences.  Removed the unnecessary fonts on production
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/vendors/fontawesome/css/fontawesome-all.css">
+    <!-- fancybox -->
+    <link rel="stylesheet" href="/vendors/fancybox/dist/jquery.fancybox.css">
+    <!-- bs-offcanvas -->
+    <link rel="stylesheet" href="/vendors/bs-offcanvas/dist/css/bootstrap.offcanvas.css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <!-- Extron custom -->
+    <link rel="stylesheet" href="/css/extron.css">
+    <!-- for specific page related header -->
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- HEADER -->
+    <header class="main-header auto-hide bg-brand">
+
+        <nav class="navbar navbar--topbar navbar-expand navbar-dark py-0 auto-hide" role="navigation">
+            <div class="container">
+                <ul class="navbar-nav ml-auto d-none d-lg-flex" data-set="topnav">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-phone pr-1"></i>
+                            800.3987.6673
+                        </a>
+                    </li> -->
+                    <li class="nav-item dropdown js-prepend-around" data-order="1">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="contact-phone-listing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-phone pr-1"></i>
+                            <span class="d-none d-lg-inline-block">Contact Us</span>
+                        </a>
+                        <div class="dropdown-menu phone-list " aria-labelledby="contact-phone-listing">
+                            <a class="dropdown-item" href="#">
+                                <span class="d-block">S3 Support Hotline:</span>
+                                <span class="h5">800.633.9876</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <span class="d-block">S3 Support Hotline:</span>
+                                <span class="h5">800.633.9876</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <span class="d-block">S3 Support Hotline:</span>
+                                <span class="h5">800.633.9876</span>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item email" href="mailto:sales@extron.com">sales@extron.com</a>
+                        </div><!-- /.dropdown-menu -->
+                    </li>
+                    <li class="nav-item" data-order="2">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-star pr-1"></i>
+                            <span class="d-none d-sm-inline-block">Favorites</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown js-prepend-around" data-order="3">
+                        <a class="nav-link dropdown-toggle" href="" role="button" id="insiderAccess" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user pr-1"></i>
+                            <span class="d-none d-lg-inline-block">Insider</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right z-depth-1" aria-labelledby="insiderAccess">
+                            <div class="dropdown-item--header">
+                                <div class="h4 text-uppercase mb-0">kevin torres</div>
+                                <div class="h6 text-secondary pt-0">ktorres@avcorp.com</div>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="insider.aspx">My Account</a>
+                            <a class="dropdown-item" href="insider.aspx">Change Password</a>
+                            <a class="dropdown-item" href="favorites.aspx">My Favorites</a>
+                            <a class="dropdown-item" href="insider.aspx">Administer Account Logins</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="insider.aspx">Product Availability</a>
+                            <a class="dropdown-item" href="insider.aspx">Place Order</a>
+                            <a class="dropdown-item" href="insider.aspx">Batch Order</a>
+                            <a class="dropdown-item" href="insider.aspx">Order Status</a>
+                            <a class="dropdown-item" href="insider.aspx">RA Status</a>
+                            <a class="dropdown-item" href="cart.aspx">Shopping Cart</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="insider.aspx">Online Price List</a>
+                            <a class="dropdown-item" href="insider.aspx">Excel Price List</a>
+                            <a class="dropdown-item" href="insider.aspx">Discounted Stock</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="insider.aspx">Extron Insider Policies</a>
+                            <a class="dropdown-item" href="insider.aspx">Project Registration Program</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="">Sign Out</a>
+                        </div>
+                    </li>
+                    <li class="nav-item cart has-item" data-order="4">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-shopping-cart pr-1"></i>
+                            <span class="cart-qty">23</span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- /.container -->
+        </nav>
+
+        <nav class="header__nav navbar navbar--main navbar-expand-lg navbar-dark bg-brand auto-hide" role="navigation">
+            <div class="container flex-lg-wrap justify-content-lg-start">
+                <!-- Toggle the main navigation on mobile -->
+                <button class="header__nav-toggler navbar-toggler  offcanvas-toggle offcanvas-toggle-close" type="button" data-toggle="offcanvas" data-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <a class="header__nav-brand navbar-brand logo" href="index.html" aria-label="Extron Electronics">
+                    <img src="/img/brand/logo/extron.svg" alt="Extron Electronics">
+                </a>
+
+
+                <!-- visible for mobile search  -->
+                <div class="collapse d-xl-none w-100 order-12" id="main-search--mobile">
+                    <div class="header__nav-search form-inline my-3" id="global-search-form">
+                        <div class="input-group w-100">
+                            <input type="text" id="idNewSearchBarTopMobile" class="form-control" placeholder="Search Extron..." aria-label="Search Extron...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-secondary" id="idNewSearchBarTopBtnMobile" aria-label="Search">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div><!-- /.form-line -->
+                </div><!-- .collapse -->
+
+                <div class="header__ul bg-brand navbar-offcanvas navbar-offcanvas-touch mr-auto" id="main-navigation" role="navigation">
+                    <a class="header__ul-close js-closemenu d-lg-none">&times;</a>
+                    <ul class="header__list navbar-nav mr-auto mt-2">
+                        <li class="nav-item d-lg-none">
+                            <div class="mobile-nav">
+                                <div class="h5 mobile-nav__item heading">kevin torres</div>
+                                <div class="h6 mobile-nav__item">ktorres@avcorp.com</div>
+                                <!-- hidden for login user -->
+                                <div id="not-login" class="d-none">
+                                    <a href="" class="btn btn-link">Log In</a>
+                                    <a href="" class="btn btn-link">Sign Up</a>
+                                </div>
+                                <!-- visible for login user -->
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="training.aspx">Training</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resources.aspx">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="company.aspx">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="download.aspx">Download</a>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="http://dev.extron.com/mockups/help/wireframe-index.html" target="_blank">Support</a>
+                        </li>-->
+                        <li class="nav-item d-lg-none">
+                            <div class="mobile-nav mobile-nav--bordered-top">
+                                <ul id="login-tools" class="mobile-nav__item list-unstyled text-capitalize">
+                                    <li><a href="">Account</a></li>
+                                    <li><a href="">Preferences</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="">Log out</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div><!-- /.navbar-nav -->
+                <!-- potential container for appendAround -->
+                <div class="navbar--topbar navbar-mobile">
+                    <ul class="navbar-nav navbar-nav--prepend d-flex flex-row d-lg-none" data-set="topnav"></ul>
+                </div>
+
+                <!-- Toggle the search on mobile -->
+                <button class="header_nav-toggler--search navbar-toggler d-xl-none " type="button" data-toggle="collapse" data-target="#main-search--mobile" aria-controls="main-search" aria-expanded="false" aria-label="Toggle search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <div class="header__nav-search form-inline d-none d-xl-flex" id="global-search-form">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="idNewSearchBarTop" placeholder="Search Extron..." aria-label="Search Extron...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-secondary" id="idNewSearchBarTopBtn" aria-label="Search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div><!-- /.form-line -->
+
+            </div><!-- /.container -->
+        </nav>
+    </header>
+    <!-- overlay -->
+    <div class="page-overlay"></div>
+    <!-- MAIN CONTENT -->
+    <main id="main-content" role="main" class="main-content has-subnav">
+        <div id="idHomeContent">
+        <!-- ## HERO ## -->
+        <section class="hero homepage">
+            <div id="heroMain" class="carousel slide carousel-fade" data-interval="7000" data-ride="">
+                <ol class="carousel-indicators">
+                    <li data-target="#heroMain" data-slide-to="0" class="active"></li>
+                    <li data-target="#heroMain" data-slide-to="1"></li>
+                    <li data-target="#heroMain" data-slide-to="2"></li>
+                    <li data-target="#heroMain" data-slide-to="3"></li>
+                    <li data-target="#heroMain" data-slide-to="4"></li>
+                    <li data-target="#heroMain" data-slide-to="5"></li>
+                    <li data-target="#heroMain" data-slide-to="6"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <a href="http://www.extron.com/technology/landing/corporate/" class="carousel-item item-center active" style="background-image: url(/design/img/comp/heroslide/hero-videowall.jpg)">
+                        <div class="carousel-caption">
+                            <div class="align-items-center">
+                                <div class="row">
+                                    <div class="col-11 col-lg-10 col-xl-8">
+                                        <h1 class="hero-title">The AV Technology Leader</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-11 col-md-8 col-lg-6 col-xl-4">
+                                        <p class="hero-text">We are anywhere that audio and video technologies can be found</p>
+                                        <p class="hero-link">Learn more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.carousel-caption -->
+                    </a><!-- /.carousel-item -->
+                    <a href="http://www.extron.com/technology/landing/corporate/" class="carousel-item item-center " style="background-image: url(/design/img/comp/heroslide/hero-extron-soultion.jpg);background-size: contain; background-color: #040a0f ">
+                        <div class="carousel-caption">
+                            <div class="align-items-center">
+                                <div class="row">
+                                    <div class="col-11 col-md-10">
+                                        <h1 class="hero-title"><br>Purpose-Built Hardware | Flexible Software </h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-11 col-md-10 col-lg-8 col-xl-4">
+                                        <p class="hero-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <p class="hero-link">Learn more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://www.extron.com/technology/landing/quantumultra/" class="carousel-item item-right" style="background-image: url(/design/img/comp/heroslide/hero-quantum.jpg)">
+                        <div class="carousel-badge">
+                            <span class="badge">Coming soon</span>
+                        </div>
+                        <div class="carousel-caption">
+                            <div class="align-items-center">
+                                <div class="row">
+                                    <div class="col-11 col-lg-5">
+                                        <h2 class="hero-title">Ultra-High Bandwidth 4K Videowall Processor</h2>
+                                        <p class="hero-text">Quantum Ultra</p>
+                                        <p class="hero-link">Learn more </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-caption techicon">
+                            <div class="align-items-end">
+                                <div class="row">
+                                    <div class="col"><img src="/design/img/comp/heroicon/rAVe-bestpro2017.svg" class="img-fluid"/ alt=""></div>
+                                    <div class="col"><img src="/design/img/comp/heroicon/everlast.svg" class="img-fluid"/ alt=""></div>
+                                    <div class="col"><img src="/design/img/comp/heroicon/vector4kscaling.svg" class="img-fluid"/ alt=""></div>
+                                    <div class="col"><img src="/design/img/comp/heroicon/4kuhd.svg" class="img-fluid"/ alt=""></div>
+                                    <div class="col"><img src="/design/img/comp/heroicon/hyperlane.svg" class="img-fluid"/ alt=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://www.extron.com/product/product.aspx?id=studiostation" class="carousel-item item-right item-light" style="background-image: url(/design/img/comp/heroslide/hero-studiostation.jpg)">
+                        <div class="carousel-badge">
+                            <span class="badge">Now Shipping</span>
+                        </div>
+                        <div class="carousel-caption">
+                            <div class="align-items-center">
+                                <div class="row">
+                                    <div class="col-11 col-lg-4">
+                                        <div class="display-4 mb-0">One Touch</div>
+                                        <h2 class="hero-title">Recording Solution</h2>
+                                        <p class="hero-text">StudioStation</p>
+                                        <p class="hero-link">Learn more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://www.extron.com/company/article.aspx?id=tlppro725tad" class="carousel-item item-right" style="background-image: url(/design/img/comp/heroslide/hero-touchlinkpro.jpg)">
+                        <div class="carousel-badge">
+                            <span class="badge">Now Shipping</span>
+                        </div>
+                        <div class="carousel-caption">
+                            <div class="align-items-center">
+                                <div class="row">
+                                    <div class="col-11 col-lg-4">
+                                        <h2 class="hero-title">Reinventing Touchpanel Performance and Design</h2>
+                                        <p class="hero-text">TLP Pro 725T | 7" TouchLink Pro Touchpanel</p>
+                                        <p class="hero-link">Learn more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-caption techicon">
+                            <div class="align-items-end">
+                                <div class="row">
+                                    <div class="col"><img src="/design/img/comp/heroicon/touchlink-pro.svg" alt="" class="img-fluid" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="http://www.extron.com/company/article.aspx?id=schedulingad&s=software07" class="carousel-item item-light item-right" style="background-image: url(/design/img/comp/heroslide/hero-roomscheduling.jpg)">
+                        <div class="carousel-badge">
+                            <span class="badge">Now Shipping</span>
+                        </div>
+                        <div class="carousel-caption">
+                            <div class="align-items-center">
+                                <div class="row">
+                                    <div class="col-11 col-lg-6">
+                                        <h2 class="hero-title">Transform TouchLink Pro Touchpanels into Full-Featured Room Booking Appliances</h2>
+                                        <p class="hero-text">Extron Room Scheduling System</p>
+                                        <p class="hero-link">Learn more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="hhttp://www.extron.com/company/article.aspx?id=dtpcp4k108ad" class="carousel-item item-right item-light" style="background-image: url(/design/img/comp/heroslide/hero-dtpcp4k108ad.jpg)">
+                        <div class="carousel-badge">
+                            <span class="badge">Coming Soon</span>
+                        </div>
+                        <div class="carousel-caption">
+                            <div class="align-items-center">
+                                <div class="row">
+                                    <div class="col-11 col-lg-4">
+                                        <h2 class="hero-title">The Ultimate Matrix Switcher - A Size for Every Application</h2>
+                                        <p class="hero-text">DTP CrossPoint 4K Series</p>
+                                        <p class="hero-link">Learn more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-caption techicon">
+                            <div class="align-items-end">
+                                <div class="row">
+                                    <div class="col"><img src="/design/img/comp/heroicon/InAVation2017-dark.svg" alt="" class="img-fluid" /></div>
+                                    <div class="col"><img src="/design/img/comp/heroicon/dtp-systems-dark.svg" alt="" class="img-fluid" /></div>
+                                    <div class="col"><img src="/design/img/comp/heroicon/vector4kscaling-dark.svg" alt="" class="img-fluid" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- /.carousel-inner -->
+                <a class="carousel-control-prev d-none d-sm-flex" href="#heroMain" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next d-none d-sm-flex" href="#heroMain" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div><!-- /.carousel -->
+        </section>
+
+        <!-- ## WHATS HAPPENING ## -->
+        <section class="section bg-light pt-5">
+            <div class="container">
+                <h4 class="section__title">
+                    What's happening at Extron
+                    <span class="section__title--link">
+                        <a class="link-more" href="https://www.extron.com/company/press.aspx?s=cb">View more</a>
+                    </span>
+                </h4>
+
+                <div class="cards slick-slider-md">
+                    <!-- PR 1 -->
+                    <a class="card border-light" href="https://www.extron.com/company/article.aspx?id=swhd4kplus_1066pr">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/swhd4kplus_1066pr.jpg" alt="
+					New 4K/60 HDMI Switchers with Ethernet Monitoring and Control">
+                        </span>
+                        <span class="card-body">
+                            <!--<p class="card-meta text-info ">Press Release</p>-->
+                            <p class="card-title lead">New 4K/60 HDMI Switchers with Ethernet Monitoring and Control</p>
+                        </span>
+                    </a>
+                    <!-- PR 2 -->
+                    <a class="card border-light" href="https://www.extron.com/company/article.aspx?id=dtptwup4kd_1067pr">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/dtptwup4kd_1067pr.jpg" alt="
+					Extron Introduces Two Input DTP Wallplate Transmitters for 4K Video">
+                        </span>
+                        <span class="card-body">
+                            <!--<p class="card-meta text-info ">Press Release</p>-->
+                            <p class="card-title lead">Extron Introduces Two Input DTP Wallplate Transmitters for 4K Video</p>
+                        </span>
+                    </a>
+                    <!-- AP -->
+                    <a class="card card-link border-light" href="https://www.extron.com/company/article.aspx?id=delta_galil">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/delta_galil.jpg" alt="Delta Galil Outfits New HQ with Extron DTP Systems, Pro Series Control & Room Scheduling">
+                        </span>
+                        <span class="card-body">
+                            <!--<p class="text-danger card-meta">Application Profiles</p>-->
+                            <p class="card-text lead">Delta Galil Outfits New HQ with Extron DTP Systems, Pro Series Control & Room Scheduling</p>
+                        </span>
+                    </a>
+                    <!-- WP -->
+                    <a class="card border-light is-locked" href="http://www.extron.com/company/article.aspx?id=understandingusbwp">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/understandingusbwp.jpg" alt="Understanding USB in Professional AV Environments">
+                        </span>
+                        <span class="card-body">
+                            <span class="locked-content">
+                                <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Required login" aria-label="Login required">
+                                    <i class="fa fa-lock"></i>
+                                </button>
+                            </span>
+                            <!--<p class="card-meta text-success">White Paper</p>-->
+                            <p class="card-title lead">Understanding USB in Professional AV Environments</p>
+                        </span>
+                    </a>
+                    <!-- PR 3 -->
+                    <a class="card border-light" href="http://www.extron.com/company/article.aspx?id=dmp128plus_1056pr">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/dmp128plus_1056pr.jpg" alt="Delta Galil Outfits New HQ with Extron DTP Systems, Pro Series Control & Room Scheduling">
+                        </span>
+                        <span class="card-body">
+                            <!--<p class="card-meta text-info">Press Release</p>-->
+                            <p class="card-text lead">Extron DMP 128 Plus Audio DSP Processors with VoIP Now Shipping</p>
+                        </span>
+                    </a>
+                    <!-- PR 4 -->
+                    <a class="card border-light" href="http://www.extron.com/company/article.aspx?id=xtpsrhd4k_1006pr">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/xtpsrhd4k_1006pr.jpg" alt="Extron Now Shipping 4K Twisted Pair Scaling Receiver for XTP Systems">
+                        </span>
+                        <span class="card-body">
+                            <!--<p class="card-meta text-info">Press Release</p>-->
+                            <p class="card-title lead">Extron Now Shipping 4K Twisted Pair Scaling Receiver for XTP Systems</p>
+                        </span>
+                    </a>
+                    <!-- PR 5 -->
+                    <a class="card border-light" href="https://www.extron.com/company/article.aspx?id=axi016_1036nspr">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/axi016_1036nspr.jpg" alt="Extron Now Shipping 16 Output Audio Expansion Interface for DMP 128 Plus Audio DSP Processors">
+                        </span>
+                        <span class="card-body">
+                            <!--<p class="card-meta text-info">Press Release</p>-->
+                            <p class="card-title lead">Extron Now Shipping 16 Output Audio Expansion Interface for DMP 128 Plus Audio DSP Processors</p>
+                        </span>
+                    </a>
+                    <!-- PR 6 -->
+                    <a class="card border-light" href="https://www.extron.com/company/article.aspx?id=thriveroom_1063pr">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/thriveroom_1063pr.jpg" alt="Extron Working with Moseley Architects on Demonstration Classroom to Facilitate Interactive Learning">
+                        </span>
+                        <span class="card-body">
+                            <!--<p class="card-meta text-info">Press Release</p>-->
+                            <p class="card-title lead">Extron Working with Moseley Architects on Demonstration Classroom to Facilitate Interactive Learning</p>
+                        </span>
+                    </a>
+                    </span>
+
+
+                    <!-- (Duplicate) See more link show only on small devices (landscape phones, less than 768px)-->
+                    <!--<div class="d-md-none text-center mt-2">
+                    <a href="/company/press.aspx" class="link-more">See more</i></a>
+                </div>-->
+                </div><!-- /.container -->
+        </section>
+
+        <!-- ## PROMO BANNER: EXTRON CAREER ## -->
+        <section style="background:#a4acb5 url(/design/img/comp/homepage/banner-career.jpg) center center no-repeat; background-size: auto">
+            <div class="container">
+                <a class="promo-item" href="#">
+                    <div class="row d-flex align-items-stretch">
+                        <div class="col-12 col-lg-5 align-self-center">
+                            <div class="promo-item-content">
+                                <h class="promo-item-title">
+                                    Start your journey </h1>
+                                    <p class="promo-item-text">Join our team! Extron offers rewarding career opportunities in a range of fields.</p>
+                                    <div class="promo-item-link link-more">View Extron Careers</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ## RECOMMENDATIONS FOR YOU ## -->
+        <section class="section bg-divider">
+            <div class="container">
+                <h4 class="section__title">Recommendations for you</h4>
+                <div class="cards slick-slider-md">
+                    <!--Reseller, Consultant, Affiliate-->
+                    <a class="card border-light" href="http://media.extron.com/download/files/brochure/2017_npb_usd_2nd_edition.pdf">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/2017new-brochure.jpg" alt="2017 New products brochure">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">2017 New products brochure</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="http://proof.extron.com/technology/landing/gve/index.aspx">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/gve.jpg" alt="GlobalViewer Enterprise">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">GlobalViewer Enterprise</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="http://www.extron.com/company/article.aspx?id=prodspspecialist&s=trsb&m=nf2046us">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/cer-prodsp.jpg" alt="Extron ProDSP Specialist Program">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">Extron ProDSP Specialist Program</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="http://www.extron.com/company/article.aspx?id=videocompressiontech&tab=technology">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/video-compression.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">Video Compression Technologies</p>
+                        </div>
+                    </a>
+                    <!--Educator-->
+                    <a class="card border-light" href="http://www.extron.com/technology/landing/entwine/">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/entwine.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">Entwine EMP - Enterprise Media Platform for Lecture Capture</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="http://www.extron.com/technology/landing/corporate/?s=csl">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/corporate.jpg" alt="Extron, The AV Technology Leader">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">Extron, The AV Technology Leader</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="https://www.extron.com/product/listbytype.aspx?subtype=623">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/dtpcp.jpg" alt="DTP CrossPoint Series">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">DTP CrossPoint Series</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="https://www.extron.com/product/prodtype76.aspx">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/collaboration-systems.jpg" alt="Collaboration Systems">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">Collaboration Systems</p>
+                        </div>
+                    </a>
+                    <!-- EAP Certified -->
+                    <a class="card border-light" href="https://www.extron.com/company/archive.aspx?archive=tracemessage">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/tracemessage.jpg" alt="Trace Message">
+                        </span>
+                        <span class="card-body">
+                            <p class="card-text lead">Trace Message</p>
+                        </span>
+                    </a>
+                    <a class="card border-light" href="https://www.extron.com/technology/swvideos.aspx?tab=training">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/swvideos.jpg" alt="Trace Message">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title lead">Software How-To Videos</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="https://www.extron.com/company/article.aspx?id=extronsecurity">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/extronsecurity.jpg" alt="Extron Product Security">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title lead">Extron Product Security</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="https://www.extron.com/download/gsmodules.aspx?tab=download">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/gsmodules.jpg" alt="Global Scripter modules">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title lead">Global Scripter modules</p>
+                        </div>
+                    </a>
+
+                    <!-- Non-logged in users  -->
+                    <a class="card border-light" href="http://media.extron.com/download/files/brochure/2017_npb_usd_2nd_edition.pdf">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/2017new-brochure.jpg" alt="2017 New products brochure">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">2017 New products brochure</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="http://www.extron.com/company/article.aspx?id=prodspspecialist&s=trsb&m=nf2046us">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/cer-prodsp.jpg" alt="Extron ProDSP Specialist Program">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">Extron ProDSP Specialist Program</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="http://proof.extron.com/technology/landing/gve/index.aspx">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/recommended/gve.jpg" alt="GlobalViewer Enterprise">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">GlobalViewer Enterprise</p>
+                        </div>
+                    </a>
+                    <a class="card border-light" href="https://www.extron.com/company/article.aspx?id=swhd4kplus_1066pr">
+                        <div class="card-image-top">
+                            <img class="card-img-top" src="https://dev.extron.com/img/home/whatshappening/swhd4kplus_1066pr.jpg" alt="
+					New 4K/60 HDMI Switchers with Ethernet Monitoring and Control">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text lead">New 4K/60 HDMI Switchers with Ethernet Monitoring and Control</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- ## PROMO BANNER: EXTRON CLASSROOM ## -->
+        <section>
+            <div class="row">
+                <div class="col-12 col-sm-6 d-flex justify-content-end" style="background:#343a40 url(https://webstg.extron.com/img/home/banner-k12.jpg)">
+                    <a class="promo-item dual" href="http://www.extronclassroom.com/index.aspx">
+                        <div class="promo-item-content">
+                            <h1 class="promo-item-title">ExtronClassroom.com </h1>
+                            <p class="promo-item-text">Access specialized resources for K-12 Schools</p>
+                            <div class="promo-item-link link-more">Visit ExtronClassroom.com</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6" style="background:#7a8189 url(https://webstg.extron.com/img/home/banner-college.jpg)">
+                    <a class="promo-item dual" href="/schools/index.aspx?s=hb">
+                        <div class="promo-item-content">
+                            <h1 class="promo-item-title">College & University</h1>
+                            <p class="promo-item-text">Access specialized resources for Colleges & Universities and more text and more and more</p>
+                            <div class="promo-item-link link-more">Learn more</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ## RECENTLY VIEWED PRODUCTS ## -->
+        <section class="section">
+            <div class="container">
+                <h4 class="section__title">Recently Viewed Products</h4>
+                <div class="cards small slick-slider-sm">
+                    <a class="card card-link" href="https://www.extron.com/product/software.aspx?id=globalconfigurator&s=4">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://www.extron.com/product/img-md/globalconfigurator.jpg" alt="Global Configurator">
+                        </span>
+                        <span class="card-body">
+                            <p class="card-title">Global Configurator</p>
+                        </span>
+                    </a>
+                    <a class="card card-link" href="https://www.extron.com/product/software.aspx?id=gcpro&s=4">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://www.extron.com/product/img-md/gcpro.jpg" alt="Global Configurator Plus and Global Configurator Professional">
+                        </span>
+                        <span class="card-body">
+                            <p class="card-title">Global Configurator Plus and Global Configurator Professional</p>
+                        </span>
+                    </a>
+                    <a class="card card-link" href="https://www.extron.com/product/software.aspx?id=ipihelpdesk&subtype=365&s=8">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://www.extron.com/product/img-md/ipihelpdesk.jpg" alt="IP Intercom HelpDesk Software">
+                        </span>
+                        <span class="card-body">
+                            <p class="card-title">IP Intercom HelpDesk Software</p>
+                        </span>
+                    </a>
+                    <a class="card card-link" href="https://www.extron.com/product/product.aspx?id=in2200rs">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://www.extron.com/product/img-md/in2200rs.jpg" alt="IN2200RS">
+                        </span>
+                        <span class="card-body">
+                            <p class="card-text">IN2200RS</p>
+                        </span>
+                    </a>
+                    <a class="card card-link" href="https://www.extron.com/product/product.aspx?id=dtpthwp232d&s=4">
+                        <span class="card-image-top">
+                            <img class="card-img-top" src="https://www.extron.com/product/img-md/dtpthwp232d_xt.jpg" alt="DTP T HWP 232 D">
+                        </span>
+                        <span class="card-body">
+                            <p class="card-text">DTP T HWP 232 D</p>
+                        </span>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+        </div>
+        <div id="idBing">
+            <section class="pt-4 pb-4" style="">
+                <div class="container">
+                    <input type="hidden" id="idSearchStrHidden" />
+                    <a href="index.html"><< Back to Index</a>
+                    <h2 class="pt-2">Search Results</h2>
+                    <div class="input-group">
+                        <input type="text" id="idNewSearchBarBtm" class="form-control">
+                        <span class="input-group-btn pr-5">
+                            <button class="btn" id="idNewSearchBarBtmBtn" style='color: #ffffff;border-radius: 0;background-color: #1799DD; padding-top: .6em; padding-bottom: .6em; padding-right: 1.5em; padding-left: 1.5em; border: 0;'><i class="fas fa-search"></i> Search</button>
+                        </span>
+                        <select id="idConfig">
+                            <option value="3748737646">Extron US</option>
+                            <option value="410689392">Extron DE</option>
+                            <option value="2004681094">Extron CN</option>
+                        </select>
+                    </div>
+                    <div id="loader" dis><img src="/img/loadingspinner.gif" /></div>
+                </div>
+            </section>
+            <section class="bg-light">
+                <div class="container pt-4">
+                    <div id="idFilters" style="float:right"></div>
+                    <div id="idDetails" style="float:left"></div>
+                    <div style="clear: both;"></div>
+                </div>
+            </section>
+            <section class="bg-light pt-1 pb-1">
+                <div class="container">
+                    <div id="idResults" style="background-color:white; padding-left:1em; padding-right:1em;"></div>
+                </div>
+            </section>
+            <section class="section bg-light pt-5">
+                <div class="container">
+                    <div id="idPaging" style="background-color: white; padding: 1em;"></div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- MAIN FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-nav mt-5">
+                <li><a class="footer-nav__link" href="">Contact Us</a></li>
+                <li><a class="footer-nav__link" href="">Privacy</a></li>
+                <li><a class="footer-nav__link" href="">Terms of use</a></li>
+                <li><a class="footer-nav__link" href="">CA Supply Chains Act</a></li>
+                <li><a class="footer-nav__link" href="">Sitemap</a></li>
+            </ul>
+            <p class="copyright">&copy; 2017 Extron Electronics. All rights reserved.</p>
+            <div class="language">
+                <div class="form-row align-items-center justify-content-center">
+                    <div class="col-auto">
+                        <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+                            <option value="1,1">US / The Americas - English</option>
+                            <option selected="selected" value="1,5">US / The Americas - Español</option>
+                            <option value="1,2">US / The Americas - Français</option>
+                            <option value="7,1">UK &amp; Ireland - English</option>
+                            <option value="6,1">Africa - English</option>
+                            <option value="6,2">Africa - Français</option>
+                            <option value="2,3">Europe - Deutsch</option>
+                            <option value="2,1">Europe - English</option>
+                            <option value="2,5">Europe - Español</option>
+                            <option value="2,2">Europe - Français</option>
+                            <option value="2,4">Europe - Italiano</option>
+                            <option value="8,1">Middle East - English</option>
+                            <option value="9,11">Russia - Russian (Русский)</option>
+                            <option value="9,1">Russia - English</option>
+                            <option value="5,7">China - Chinese (简体中文)</option>
+                            <option value="5,1">China - English</option>
+                            <option value="3,1">Asia / Pacific - English</option>
+                            <option value="3,9">Asia / Pacific - Korean (한국어)</option>
+                            <option value="3,10">Asia / Pacific - Thai (ไทย)</option>
+                            <option value="10,1">Australia - English</option>
+                            <option value="4,6">Japan - Japanese (日本語)</option>
+                            <option value="4,1">Japan - English</option>
+                        </select>
+                    </div>
+                </div><!-- /.form-row -->
+            </div><!-- /.language -->
+            <div class="social-links text-center">
+                <p class="social-label">Stay connected</p>
+                <ul class="social">
+                    <li><a class="social-link" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="social-link" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li><a class="social-link" href=""><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                </ul>
+            </div><!-- /.social-links -->
+        </div>
+    </footer>
+
+
+    <!-- Core -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- velocity -->
+    <script src="/vendors/velocity.min.js"></script>
+    <!-- cards -->
+    <script src="/js/cards.js"></script>
+    <!-- bs-offcanvas -->
+    <script src="/vendors/bs-offcanvas/dist/js/bootstrap.offcanvas.js"></script>
+    <!-- fancybox -->
+    <script src="/vendors/fancybox/dist/jquery.fancybox.js"></script>
+    <script src="/js/fancybox-responsive.js"></script>
+    <!-- auto-hide navbar -->
+    <script src="/js/autohide.js"></script>
+    <!-- actions and function js -->
+    <script src="/js/main.js"></script>
+    <!-- Load page specific JS Here -->
+    <script src="/vendors/slick.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="bing.js"></script>
+
+</body>
+</html>
